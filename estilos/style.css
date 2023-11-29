@@ -21,7 +21,7 @@ body {
 main {
     position: relative;
     height: 100vh;
-    background-color: green;
+    
 }
 
 section#telefone {
@@ -41,4 +41,22 @@ iframe#tela {
     left: 22px;
     width: 269;
     height: 471;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400)
+}
+
+section#redes-socias img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px solid rgba(0, 0, 0, 0.600);
+    transition: transform .3s, border .4s;
 }
